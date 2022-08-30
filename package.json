@@ -1,0 +1,28 @@
+{
+  "name": "cool-vue3-cpy-learn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5",
+    "eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-vue": "^9.2.0",
+    "prettier": "^2.7.1",
+		"sass": "^1.53.0",
+		"sass-loader": "^13.0.2"
+  }
+}
